@@ -1,0 +1,70 @@
+
+
+h2,h3{
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+}
+
+header h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 115px;
+}
+
+form input{
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    width: 400px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+form button, form .success-message, form .error-message{
+    width: 415px;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+form button {
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 415px;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+form button:hover{
+    background-color: #afabab;
+}
+
+input:focus{
+    outline-color:#555555;
+}
+
+.success-message{
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    background-color: #04af29;
+    color: #ffffff;
+    margin-top: 1px;
+    padding: 6px;
+    width: 403px;
+    display: none;
+}
+.error-message{
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #ffffff;
+    width: 400px;
+    margin-top: 1px;
+    display: none;
+}
